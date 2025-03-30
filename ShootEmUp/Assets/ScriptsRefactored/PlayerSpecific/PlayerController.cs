@@ -1,76 +1,71 @@
+using ShootEmUp.Systems;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+namespace ShootEmUp.Controllers
 {
-    [SerializeField] private GameManager gameManager;
-    [SerializeField] private BulletSystem bulletSystem;
-    [SerializeField] private BulletConfig bulletConfig;
-    [SerializeField] private WeaponComponent weapon;
-    [SerializeField] private HealthComponent health;
-    [SerializeField] private bool canOnlyShootUpward = true;
-
-    private void OnEnable()
+    public class PlayerController : MonoBehaviour
     {
-        if (health != null)
+        [SerializeField] private GameManager gameManager;
+        [SerializeField] private BulletSystem bulletSystem;
+        [SerializeField] private BulletConfig bulletConfig;
+        [SerializeField] private WeaponComponent weapon;
+        [SerializeField] private HealthComponent health;
+        [SerializeField] private bool canOnlyShootUpward = true;
+        [SerializeField] private PlayerInputHandler playerInput; 
+
+        private void OnEnable()
+        {
             health.OnHealthEmpty += OnPlayerDeath;
-    }
+        }
 
-    private void OnDisable()
-    {
-        if (health != null)
+        private void OnDisable()
+        {
             health.OnHealthEmpty -= OnPlayerDeath;
-    }
-
-    private void OnPlayerDeath(GameObject player)
-    {
-        gameManager.FinishGame(false); // Player died, game over
-    }
-
-    public void RequestFire(Vector2 aimDirection)
-    {
-        if (weapon != null && weapon.CanFire)
-        {
-            FireBullet(aimDirection);
-        }
-    }
-
-    private void FireBullet(Vector2 aimDirection)
-    {
-        Vector3 shootDirection;
-
-        if (canOnlyShootUpward)
-        {
-            shootDirection = Vector3.up;
-        }
-        else
-        {
-            shootDirection = aimDirection.normalized;
         }
 
-        if (bulletSystem == null)
+        private void Update()
         {
+            if (playerInput.IsFiring())
+            {
+                Vector2 aimDirection = playerInput.GetAimDirection();
+                RequestFire(aimDirection);
+            }
+        }
+
+        private void OnPlayerDeath(GameObject player)
+        {
+            gameManager.FinishGame(false);
+        }
+
+        public void RequestFire(Vector2 aimDirection)
+        {
+            if (weapon.CanFire)
+            {
+                FireBullet(aimDirection);
+            }
+        }
+
+        private void FireBullet(Vector2 aimDirection)
+        {
+            Vector3 shootDirection = canOnlyShootUpward ? Vector3.up : aimDirection.normalized;
+
+           
             bulletSystem = FindAnyObjectByType<BulletSystem>();
             if (bulletSystem == null)
             {
                 Debug.LogError("BulletSystem reference not found!");
                 return;
             }
+
+            bulletSystem.FireBullet(new BulletArgs
+            {
+                IsPlayerBullet = true,
+                Color = bulletConfig.Color,
+                Damage = bulletConfig.Damage,
+                Position = weapon.Position,
+                Direction = shootDirection,
+                Speed = bulletConfig.Speed
+            });
         }
-
-        bulletSystem.FireBullet(new BulletSystem.BulletArgs
-        {
-            IsPlayerBullet = true,
-            Color = bulletConfig.color,
-            Damage = bulletConfig.damage,
-            Position = weapon.Position,
-            Direction = shootDirection,
-            Speed = bulletConfig.speed
-        });
-    }
-
-    public void SetReferences(GameManager gameManager, BulletSystem bulletSystem)
-    {
-        this.gameManager = gameManager;
-        this.bulletSystem = bulletSystem;
     }
 }

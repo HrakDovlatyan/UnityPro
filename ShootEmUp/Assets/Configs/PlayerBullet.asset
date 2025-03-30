@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e465776479870a4ca455173ff27805f, type: 3}
   m_Name: PlayerBullet
   m_EditorClassIdentifier: 
-  targetLayer: 6
-  color: {r: 0, g: 1, b: 0.10204816, a: 1}
-  damage: 10
-  speed: 10
-  lifetime: 10
+  Color: {r: 0.32434702, g: 1, b: 0, a: 1}
+  Damage: 10
+  Speed: 10
+  LifeTime: 3

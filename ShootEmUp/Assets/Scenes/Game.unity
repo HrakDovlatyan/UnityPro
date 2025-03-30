@@ -1472,28 +1472,11 @@ PrefabInstance:
       propertyPath: bulletSystem
       value: 
       objectReference: {fileID: 363245577}
-    - target: {fileID: 7512396055600753321, guid: 9699e7e809fd44b2bbf3d30c951ecbd2,
-        type: 3}
-      propertyPath: canOnlyShootUpward
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9699e7e809fd44b2bbf3d30c951ecbd2, type: 3}
---- !u!114 &3926786964592264469 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7512396055600753321, guid: 9699e7e809fd44b2bbf3d30c951ecbd2,
-    type: 3}
-  m_PrefabInstance: {fileID: 3926786964592264468}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78172977d52869544a463df78c5cf10c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &3951702117947426121
 GameObject:
   m_ObjectHideFlags: 0
@@ -1542,7 +1525,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameOverPanel: {fileID: 274110153}
   victoryPanel: {fileID: 971658280}
-  player: {fileID: 3926786964592264469}
   enemySystem: {fileID: 562298205}
 --- !u!212 &4162873433806880330
 SpriteRenderer:
@@ -1680,10 +1662,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5377a5d4caa94482972174d0a74ac4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_params:
-    m_startPositionY: 19
-    m_endPositionY: -38
-    m_movingSpeedY: 5
+  parameters:
+    StartPositionY: 0
+    EndPositionY: 0
+    MovementSpeedY: 0
 --- !u!1 &4914023371208914563
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,24 +1,31 @@
 using UnityEngine;
 
-public class MovementController : MonoBehaviour
+namespace ShootEmUp.Controllers
 {
-    [SerializeField] private float moveSpeed = 5f;
-    [SerializeField] private Rigidbody2D rb;
-
-    private Vector2 moveDirection;
-
-    private void Awake()
+    public class MovementController : MonoBehaviour
     {
-        if (rb == null) rb = GetComponent<Rigidbody2D>();
-    }
+        [SerializeField] private float moveSpeed = 5f;
+        [SerializeField] private Rigidbody2D rb;
+        [SerializeField] private PlayerInputHandler playerInput;
+        [SerializeField] private bool isPlayer; 
 
-    public void Move(Vector2 direction)
-    {
-        moveDirection = direction.normalized;
-    }
+        private void Awake()
+        {
+            if (rb == null) rb = GetComponent<Rigidbody2D>();
+        }
 
-    private void FixedUpdate()
-    {
-        rb.linearVelocity = moveDirection * moveSpeed;
+        private void Update()
+        {
+            if (playerInput != null && isPlayer)
+            {
+                Vector2 moveDirection = playerInput.GetMovementInput().normalized;
+                Move(moveDirection);
+            }
+        }
+
+        public void Move(Vector2 direction)
+        {
+            rb.linearVelocity = direction * moveSpeed;
+        }
     }
 }

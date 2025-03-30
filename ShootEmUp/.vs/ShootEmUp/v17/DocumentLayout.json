@@ -1,78 +1,79 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\",
+  "WorkspaceRootPath": "D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|d:\\unity_pro_course_files\\shootemup\\assets\\scriptsrefactored\\gamemanager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptsrefactored\\gamemanager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\assets\\scriptsrefactored\\playerspecific\\playerinputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptsrefactored\\playerspecific\\playerinputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\assets\\scriptsrefactored\\bullets\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptsrefactored\\bullets\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\assets\\scriptsrefactored\\reusablecomponents\\healthcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptsrefactored\\reusablecomponents\\healthcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\assets\\scriptsrefactored\\bullets\\bulletsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptsrefactored\\bullets\\bulletsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\assets\\scriptsrefactored\\playerspecific\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptsrefactored\\playerspecific\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\assets\\scriptsrefactored\\bullets\\bulletconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptsrefactored\\bullets\\bulletconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\assets\\scriptsrefactored\\enemyspecific\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptsrefactored\\enemyspecific\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\assets\\scriptsrefactored\\reusablecomponents\\weaponcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\assets\\scriptsrefactored\\reusablecomponents\\weaponcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptsrefactored\\reusablecomponents\\weaponcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\assets\\scriptsrefactored\\enemyspecific\\enemysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|d:\\unity_pro_course_files\\unitypro\\shootemup\\assets\\scriptsrefactored\\playerspecific\\playerinputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptsrefactored\\playerspecific\\playerinputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\assets\\scriptsrefactored\\bullets\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptsrefactored\\bullets\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\assets\\scriptsrefactored\\enemyspecific\\enemysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptsrefactored\\enemyspecific\\enemysystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\assets\\scriptsrefactored\\reusablecomponents\\movementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\assets\\scriptsrefactored\\gamemanager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptsrefactored\\gamemanager\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|d:\\unity_pro_course_files\\unitypro\\shootemup\\assets\\scriptsrefactored\\enemyspecific\\enemyinputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptsrefactored\\enemyspecific\\enemyinputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\assets\\scriptsrefactored\\enemyspecific\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptsrefactored\\enemyspecific\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\assets\\scriptsrefactored\\reusablecomponents\\healthcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptsrefactored\\reusablecomponents\\healthcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\assets\\scriptsrefactored\\reusablecomponents\\movementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptsrefactored\\reusablecomponents\\movementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\unity_pro_course_files\\shootemup\\assets\\scripts\\components\\movecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\components\\movecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\assets\\scriptsrefactored\\playerspecific\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptsrefactored\\playerspecific\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\assets\\scripts\\components\\weaponcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\components\\weaponcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\assets\\scriptsrefactored\\bullets\\bulletsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptsrefactored\\bullets\\bulletsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\assets\\scripts\\enemy\\enemypool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\enemy\\enemypool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\assets\\scriptsrefactored\\level\\levelbackground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptsrefactored\\level\\levelbackground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\assets\\scripts\\character\\charactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\character\\charactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\assets\\scriptsrefactored\\bullets\\bulletconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{412F1904-1EC0-023C-69B6-8093F59EA576}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptsrefactored\\bullets\\bulletconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\assets\\scripts\\enemy\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\enemy\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\unity_pro_course_files\\shootemup\\assets\\scripts\\components\\movecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\assets\\scripts\\enemy\\agents\\enemyattackagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\enemy\\agents\\enemyattackagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\assets\\scripts\\components\\weaponcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\assets\\scripts\\input\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\input\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\assets\\scripts\\enemy\\enemypool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\assets\\scripts\\character\\charactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\assets\\scripts\\enemy\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\assets\\scripts\\enemy\\agents\\enemyattackagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\assets\\scripts\\input\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,221 +83,253 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EnemyController.cs",
-              "DocumentMoniker": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\ScriptsRefactored\\EnemySpecific\\EnemyController.cs",
-              "RelativeDocumentMoniker": "Assets\\ScriptsRefactored\\EnemySpecific\\EnemyController.cs",
-              "ToolTip": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\ScriptsRefactored\\EnemySpecific\\EnemyController.cs",
-              "RelativeToolTip": "Assets\\ScriptsRefactored\\EnemySpecific\\EnemyController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAUwHQAAAAnAAAA",
+              "DocumentIndex": 5,
+              "Title": "EnemyInputHandler.cs",
+              "DocumentMoniker": "D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\Assets\\ScriptsRefactored\\EnemySpecific\\EnemyInputHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\ScriptsRefactored\\EnemySpecific\\EnemyInputHandler.cs",
+              "ToolTip": "D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\Assets\\ScriptsRefactored\\EnemySpecific\\EnemyInputHandler.cs",
+              "RelativeToolTip": "Assets\\ScriptsRefactored\\EnemySpecific\\EnemyInputHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T09:15:54.939Z"
+              "WhenOpened": "2025-03-30T17:44:34.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnemyController.cs",
+              "DocumentMoniker": "D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\Assets\\ScriptsRefactored\\EnemySpecific\\EnemyController.cs",
+              "RelativeDocumentMoniker": "Assets\\ScriptsRefactored\\EnemySpecific\\EnemyController.cs",
+              "ToolTip": "D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\Assets\\ScriptsRefactored\\EnemySpecific\\EnemyController.cs",
+              "RelativeToolTip": "Assets\\ScriptsRefactored\\EnemySpecific\\EnemyController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwAwAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T09:15:54.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HealthComponent.cs",
+              "DocumentMoniker": "D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\Assets\\ScriptsRefactored\\ReusableComponents\\HealthComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\ScriptsRefactored\\ReusableComponents\\HealthComponent.cs",
+              "ToolTip": "D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\Assets\\ScriptsRefactored\\ReusableComponents\\HealthComponent.cs",
+              "RelativeToolTip": "Assets\\ScriptsRefactored\\ReusableComponents\\HealthComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T09:12:48.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\Assets\\ScriptsRefactored\\Bullets\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\ScriptsRefactored\\Bullets\\Bullet.cs",
+              "ToolTip": "D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\Assets\\ScriptsRefactored\\Bullets\\Bullet.cs",
+              "RelativeToolTip": "Assets\\ScriptsRefactored\\Bullets\\Bullet.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T09:19:07.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerInputHandler.cs",
+              "DocumentMoniker": "D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\Assets\\ScriptsRefactored\\PlayerSpecific\\PlayerInputHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\ScriptsRefactored\\PlayerSpecific\\PlayerInputHandler.cs",
+              "ToolTip": "D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\Assets\\ScriptsRefactored\\PlayerSpecific\\PlayerInputHandler.cs",
+              "RelativeToolTip": "Assets\\ScriptsRefactored\\PlayerSpecific\\PlayerInputHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T09:14:02.561Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "WeaponComponent.cs",
+              "DocumentMoniker": "D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\Assets\\ScriptsRefactored\\ReusableComponents\\WeaponComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\ScriptsRefactored\\ReusableComponents\\WeaponComponent.cs",
+              "ToolTip": "D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\Assets\\ScriptsRefactored\\ReusableComponents\\WeaponComponent.cs",
+              "RelativeToolTip": "Assets\\ScriptsRefactored\\ReusableComponents\\WeaponComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T09:13:11.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemySystem.cs",
+              "DocumentMoniker": "D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\Assets\\ScriptsRefactored\\EnemySpecific\\EnemySystem.cs",
+              "RelativeDocumentMoniker": "Assets\\ScriptsRefactored\\EnemySpecific\\EnemySystem.cs",
+              "ToolTip": "D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\Assets\\ScriptsRefactored\\EnemySpecific\\EnemySystem.cs",
+              "RelativeToolTip": "Assets\\ScriptsRefactored\\EnemySpecific\\EnemySystem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T09:20:35.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "GameManager.cs",
-              "DocumentMoniker": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\ScriptsRefactored\\GameManager\\GameManager.cs",
+              "DocumentMoniker": "D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\Assets\\ScriptsRefactored\\GameManager\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\ScriptsRefactored\\GameManager\\GameManager.cs",
-              "ToolTip": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\ScriptsRefactored\\GameManager\\GameManager.cs",
+              "ToolTip": "D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\Assets\\ScriptsRefactored\\GameManager\\GameManager.cs",
               "RelativeToolTip": "Assets\\ScriptsRefactored\\GameManager\\GameManager.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwBgAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T09:20:21.943Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BulletConfig.cs",
-              "DocumentMoniker": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\ScriptsRefactored\\Bullets\\BulletConfig.cs",
-              "RelativeDocumentMoniker": "Assets\\ScriptsRefactored\\Bullets\\BulletConfig.cs",
-              "ToolTip": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\ScriptsRefactored\\Bullets\\BulletConfig.cs",
-              "RelativeToolTip": "Assets\\ScriptsRefactored\\Bullets\\BulletConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAjAAAA",
+              "DocumentIndex": 8,
+              "Title": "MovementController.cs",
+              "DocumentMoniker": "D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\Assets\\ScriptsRefactored\\ReusableComponents\\MovementController.cs",
+              "RelativeDocumentMoniker": "Assets\\ScriptsRefactored\\ReusableComponents\\MovementController.cs",
+              "ToolTip": "D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\Assets\\ScriptsRefactored\\ReusableComponents\\MovementController.cs",
+              "RelativeToolTip": "Assets\\ScriptsRefactored\\ReusableComponents\\MovementController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T09:17:20.708Z"
+              "WhenOpened": "2025-03-23T09:03:46.537Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "PlayerController.cs",
-              "DocumentMoniker": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\ScriptsRefactored\\PlayerSpecific\\PlayerController.cs",
+              "DocumentMoniker": "D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\Assets\\ScriptsRefactored\\PlayerSpecific\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\ScriptsRefactored\\PlayerSpecific\\PlayerController.cs",
-              "ToolTip": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\ScriptsRefactored\\PlayerSpecific\\PlayerController.cs",
+              "ToolTip": "D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\Assets\\ScriptsRefactored\\PlayerSpecific\\PlayerController.cs",
               "RelativeToolTip": "Assets\\ScriptsRefactored\\PlayerSpecific\\PlayerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T09:13:49.087Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "BulletSystem.cs",
-              "DocumentMoniker": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\ScriptsRefactored\\Bullets\\BulletSystem.cs",
+              "DocumentMoniker": "D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\Assets\\ScriptsRefactored\\Bullets\\BulletSystem.cs",
               "RelativeDocumentMoniker": "Assets\\ScriptsRefactored\\Bullets\\BulletSystem.cs",
-              "ToolTip": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\ScriptsRefactored\\Bullets\\BulletSystem.cs",
+              "ToolTip": "D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\Assets\\ScriptsRefactored\\Bullets\\BulletSystem.cs",
               "RelativeToolTip": "Assets\\ScriptsRefactored\\Bullets\\BulletSystem.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAowDAAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T09:18:34.255Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HealthComponent.cs",
-              "DocumentMoniker": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\ScriptsRefactored\\ReusableComponents\\HealthComponent.cs",
-              "RelativeDocumentMoniker": "Assets\\ScriptsRefactored\\ReusableComponents\\HealthComponent.cs",
-              "ToolTip": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\ScriptsRefactored\\ReusableComponents\\HealthComponent.cs",
-              "RelativeToolTip": "Assets\\ScriptsRefactored\\ReusableComponents\\HealthComponent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABOAAAA",
+              "DocumentIndex": 12,
+              "Title": "BulletConfig.cs",
+              "DocumentMoniker": "D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\Assets\\ScriptsRefactored\\Bullets\\BulletConfig.cs",
+              "RelativeDocumentMoniker": "Assets\\ScriptsRefactored\\Bullets\\BulletConfig.cs",
+              "ToolTip": "D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\Assets\\ScriptsRefactored\\Bullets\\BulletConfig.cs",
+              "RelativeToolTip": "Assets\\ScriptsRefactored\\Bullets\\BulletConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T09:12:48.314Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Bullet.cs",
-              "DocumentMoniker": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\ScriptsRefactored\\Bullets\\Bullet.cs",
-              "RelativeDocumentMoniker": "Assets\\ScriptsRefactored\\Bullets\\Bullet.cs",
-              "ToolTip": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\ScriptsRefactored\\Bullets\\Bullet.cs",
-              "RelativeToolTip": "Assets\\ScriptsRefactored\\Bullets\\Bullet.cs",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAkwEYAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T09:19:07.14Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlayerInputHandler.cs",
-              "DocumentMoniker": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\ScriptsRefactored\\PlayerSpecific\\PlayerInputHandler.cs",
-              "RelativeDocumentMoniker": "Assets\\ScriptsRefactored\\PlayerSpecific\\PlayerInputHandler.cs",
-              "ToolTip": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\ScriptsRefactored\\PlayerSpecific\\PlayerInputHandler.cs",
-              "RelativeToolTip": "Assets\\ScriptsRefactored\\PlayerSpecific\\PlayerInputHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T09:14:02.561Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WeaponComponent.cs",
-              "DocumentMoniker": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\ScriptsRefactored\\ReusableComponents\\WeaponComponent.cs",
-              "RelativeDocumentMoniker": "Assets\\ScriptsRefactored\\ReusableComponents\\WeaponComponent.cs",
-              "ToolTip": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\ScriptsRefactored\\ReusableComponents\\WeaponComponent.cs",
-              "RelativeToolTip": "Assets\\ScriptsRefactored\\ReusableComponents\\WeaponComponent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T09:13:11.407Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EnemySystem.cs",
-              "DocumentMoniker": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\ScriptsRefactored\\EnemySpecific\\EnemySystem.cs",
-              "RelativeDocumentMoniker": "Assets\\ScriptsRefactored\\EnemySpecific\\EnemySystem.cs",
-              "ToolTip": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\ScriptsRefactored\\EnemySpecific\\EnemySystem.cs",
-              "RelativeToolTip": "Assets\\ScriptsRefactored\\EnemySpecific\\EnemySystem.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwEUAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T09:20:35.352Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MovementController.cs",
-              "DocumentMoniker": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\ScriptsRefactored\\ReusableComponents\\MovementController.cs",
-              "RelativeDocumentMoniker": "Assets\\ScriptsRefactored\\ReusableComponents\\MovementController.cs",
-              "ToolTip": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\ScriptsRefactored\\ReusableComponents\\MovementController.cs",
-              "RelativeToolTip": "Assets\\ScriptsRefactored\\ReusableComponents\\MovementController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T09:03:46.537Z"
+              "WhenOpened": "2025-03-23T09:17:20.708Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "LevelBackground.cs",
+              "DocumentMoniker": "D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\Assets\\ScriptsRefactored\\Level\\LevelBackground.cs",
+              "RelativeDocumentMoniker": "Assets\\ScriptsRefactored\\Level\\LevelBackground.cs",
+              "ToolTip": "D:\\UNITY_PRO_COURSE_FILES\\UnityPro\\ShootEmUp\\Assets\\ScriptsRefactored\\Level\\LevelBackground.cs",
+              "RelativeToolTip": "Assets\\ScriptsRefactored\\Level\\LevelBackground.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T07:30:46.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "MoveComponent.cs",
               "DocumentMoniker": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\Scripts\\Components\\MoveComponent.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\MoveComponent.cs",
+              "RelativeDocumentMoniker": "..\\..\\ShootEmUp\\Assets\\Scripts\\Components\\MoveComponent.cs",
               "ToolTip": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\Scripts\\Components\\MoveComponent.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Components\\MoveComponent.cs",
+              "RelativeToolTip": "..\\..\\ShootEmUp\\Assets\\Scripts\\Components\\MoveComponent.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T09:11:49.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "WeaponComponent.cs",
               "DocumentMoniker": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\Scripts\\Components\\WeaponComponent.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Components\\WeaponComponent.cs",
+              "RelativeDocumentMoniker": "..\\..\\ShootEmUp\\Assets\\Scripts\\Components\\WeaponComponent.cs",
               "ToolTip": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\Scripts\\Components\\WeaponComponent.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Components\\WeaponComponent.cs",
+              "RelativeToolTip": "..\\..\\ShootEmUp\\Assets\\Scripts\\Components\\WeaponComponent.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T08:47:18.32Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "EnemyPool.cs",
               "DocumentMoniker": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\Scripts\\Enemy\\EnemyPool.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyPool.cs",
+              "RelativeDocumentMoniker": "..\\..\\ShootEmUp\\Assets\\Scripts\\Enemy\\EnemyPool.cs",
               "ToolTip": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\Scripts\\Enemy\\EnemyPool.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyPool.cs",
+              "RelativeToolTip": "..\\..\\ShootEmUp\\Assets\\Scripts\\Enemy\\EnemyPool.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T11:03:03.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "CharacterController.cs",
               "DocumentMoniker": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\Scripts\\Character\\CharacterController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\CharacterController.cs",
+              "RelativeDocumentMoniker": "..\\..\\ShootEmUp\\Assets\\Scripts\\Character\\CharacterController.cs",
               "ToolTip": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\Scripts\\Character\\CharacterController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Character\\CharacterController.cs",
+              "RelativeToolTip": "..\\..\\ShootEmUp\\Assets\\Scripts\\Character\\CharacterController.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAzwCUAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T11:01:24.082Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "InputManager.cs",
               "DocumentMoniker": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\Scripts\\Input\\InputManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Input\\InputManager.cs",
+              "RelativeDocumentMoniker": "..\\..\\ShootEmUp\\Assets\\Scripts\\Input\\InputManager.cs",
               "ToolTip": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\Scripts\\Input\\InputManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Input\\InputManager.cs",
+              "RelativeToolTip": "..\\..\\ShootEmUp\\Assets\\Scripts\\Input\\InputManager.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T11:01:13.74Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "EnemyManager.cs",
               "DocumentMoniker": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\Scripts\\Enemy\\EnemyManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyManager.cs",
+              "RelativeDocumentMoniker": "..\\..\\ShootEmUp\\Assets\\Scripts\\Enemy\\EnemyManager.cs",
               "ToolTip": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\Scripts\\Enemy\\EnemyManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyManager.cs",
+              "RelativeToolTip": "..\\..\\ShootEmUp\\Assets\\Scripts\\Enemy\\EnemyManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T11:00:56.577Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "EnemyAttackAgent.cs",
               "DocumentMoniker": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\Scripts\\Enemy\\Agents\\EnemyAttackAgent.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Agents\\EnemyAttackAgent.cs",
+              "RelativeDocumentMoniker": "..\\..\\ShootEmUp\\Assets\\Scripts\\Enemy\\Agents\\EnemyAttackAgent.cs",
               "ToolTip": "D:\\UNITY_PRO_COURSE_FILES\\ShootEmUp\\Assets\\Scripts\\Enemy\\Agents\\EnemyAttackAgent.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Agents\\EnemyAttackAgent.cs",
+              "RelativeToolTip": "..\\..\\ShootEmUp\\Assets\\Scripts\\Enemy\\Agents\\EnemyAttackAgent.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T11:00:25.342Z"

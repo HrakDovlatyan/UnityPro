@@ -1,11 +1,12 @@
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using ShootEmUp.Controllers;
+using ShootEmUp.Systems;
 
 public class GameManager : MonoBehaviour
 {
     [SerializeField] private GameObject gameOverPanel;
     [SerializeField] private GameObject victoryPanel;
-    [SerializeField] private PlayerController player;
     [SerializeField] private EnemySystem enemySystem;
 
     private bool isGameOver = false;
@@ -49,7 +50,7 @@ public class GameManager : MonoBehaviour
 
     private void OnAllEnemiesDefeated()
     {
-        FinishGame(true); // Player won
+        FinishGame(true);
     }
 
     public void RestartGame()

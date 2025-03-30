@@ -1,106 +1,94 @@
+using ShootEmUp.Controllers;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.TextCore.Text;
 
-public class Bullet : MonoBehaviour
+namespace ShootEmUp.Systems
 {
-    [SerializeField] private Rigidbody2D rb;
-    [SerializeField] private SpriteRenderer spriteRenderer;
-
-    private bool isPlayerBullet;
-    private int damage;
-    private float lifetime = 3f;
-    private float timer;
-    private Vector2 velocity;
-
-    public void Initialize(bool isPlayerBullet, int damage, Vector2 velocity, Color color)
+    public class Bullet : MonoBehaviour
     {
-        this.isPlayerBullet = isPlayerBullet;
-        this.damage = damage;
-        this.velocity = velocity;
+        [SerializeField] private Rigidbody2D rigidBody;
+        [SerializeField] private SpriteRenderer spriteRenderer;
 
-        if (rb != null)
+        [SerializeField] private BulletSystem bulletSystem;
+
+
+        private bool isPlayerBullet;
+        private int damage;
+        private float lifeTime = 3f;
+        private float timer;
+        private Vector2 velocity;
+
+        public void Initialize(bool isPlayerBullet, int damage, Vector2 velocity, Color color)
         {
-            rb.MovePosition(velocity);
-        }
+            this.isPlayerBullet = isPlayerBullet;
+            this.damage = damage;
+            this.velocity = velocity;
 
-        if (spriteRenderer != null)
-        {
-            spriteRenderer.color = color;
-        }
-
-        timer = 0f;
-    }
-
-    private void FixedUpdate()
-    {
-        if (rb != null)
-        {
-            rb.MovePosition(rb.position + velocity * Time.fixedDeltaTime);
-        }
-    }
-
-    private void Update()
-    {
-        timer += Time.deltaTime;
-        if (timer >= lifetime)
-        {
-            DisableBullet();
-        }
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.GetComponent<Bullet>() != null)
-        {
-            return;
-        }
-
-        bool hitTarget = false;
-
-        if (isPlayerBullet && other.CompareTag("Enemy"))
-        {
-            var healthComponent = other.GetComponent<HealthComponent>();
-            if (healthComponent != null)
+            if (rigidBody != null)
             {
-                healthComponent.TakeDamage(damage);
-                hitTarget = true;
-
-                Debug.Log("Hit enemy for " + damage + " damage!");
+                rigidBody.MovePosition(velocity);
             }
-        }
-        else if (!isPlayerBullet && other.CompareTag("Character"))
-        {
-            var healthComponent = other.GetComponent<HealthComponent>();
-            if (healthComponent != null)
-            {
-                healthComponent.TakeDamage(damage);
-                hitTarget = true;
 
-                Debug.Log("Player hit for " + damage + " damage!");
+            if (spriteRenderer != null)
+            {
+                spriteRenderer.color = color;
+            }
+
+            timer = 0f;
+        }
+
+        private void FixedUpdate()
+        {
+
+            rigidBody.MovePosition(rigidBody.position + velocity * Time.fixedDeltaTime);
+
+        }
+
+        private void Update()
+        {
+            timer += Time.deltaTime;
+            if (timer >= lifeTime)
+            {
+                DisableBullet();
             }
         }
 
-        if (hitTarget)
+        private void OnTriggerEnter2D(Collider2D other)
         {
-            DisableBullet();
-        }
-    }
+            if (!other.TryGetComponent<HealthComponent>(out var healthComponent))
+                return;
 
-    private void DisableBullet()
-    {
-        if (rb != null)
-        {
-            rb.MovePosition(Vector2.zero);
+            bool isEnemy = other.TryGetComponent<EnemyController>(out _);
+            bool isPlayer = other.TryGetComponent<PlayerController>(out _);
+
+            if ((isPlayerBullet && isEnemy) || (!isPlayerBullet && isPlayer))
+            {
+                healthComponent.TakeDamage(damage);
+
+                string target = isEnemy ? "enemy" : "player";
+                Debug.Log($"Hit {target} for {damage} damage!");
+
+                DisableBullet();
+            }
+
         }
 
-        BulletSystem bulletSystem = GetComponentInParent<BulletSystem>();
-        if (bulletSystem != null)
+        private void DisableBullet()
         {
-            bulletSystem.ReturnBulletToPool(gameObject);
-        }
-        else
-        {
-            gameObject.SetActive(false);
+
+            rigidBody.MovePosition(Vector2.zero);
+
+
+            BulletSystem bulletSystem = GetComponentInParent<BulletSystem>();
+            if (bulletSystem != null)
+            {
+                bulletSystem.ReturnBulletToPool(gameObject);
+            }
+            else
+            {
+                gameObject.SetActive(false);
+            }
         }
     }
 }

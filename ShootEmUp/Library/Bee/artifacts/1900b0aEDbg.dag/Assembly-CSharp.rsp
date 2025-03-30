@@ -412,6 +412,7 @@
 "Assets/ScriptsRefactored/Bullets/BulletConfig.cs"
 "Assets/ScriptsRefactored/Bullets/BulletSystem.cs"
 "Assets/ScriptsRefactored/EnemySpecific/EnemyController.cs"
+"Assets/ScriptsRefactored/EnemySpecific/EnemyInputHandler.cs"
 "Assets/ScriptsRefactored/EnemySpecific/EnemySystem.cs"
 "Assets/ScriptsRefactored/GameManager/GameManager.cs"
 "Assets/ScriptsRefactored/Level/LevelBackground.cs"

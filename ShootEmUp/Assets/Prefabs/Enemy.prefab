@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 1873935751729070957}
   - component: {fileID: 7289485848672907270}
   - component: {fileID: 6409523150669531490}
+  - component: {fileID: 5110277151600304807}
   m_Layer: 11
   m_Name: Enemy
   m_TagString: Enemy
@@ -169,8 +170,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c81935c2ce2d55943bf6a0fcc9350fce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 2
   rb: {fileID: 659620479434099170}
+  playerInput: {fileID: 5110277151600304807}
+  isPlayer: 0
 --- !u!114 &1873935751729070957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -217,6 +220,18 @@ MonoBehaviour:
   bulletConfig: {fileID: 11400000, guid: 72fd5b3811f60ea418c891a080de1da9, type: 2}
   attackPositionReachedThreshold: 0.5
   attackInterval: 1.5
+--- !u!114 &5110277151600304807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559606060570185700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed8d6128836550844a7d3ec8a462c1eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2239154907127902911
 GameObject:
   m_ObjectHideFlags: 0

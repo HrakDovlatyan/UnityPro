@@ -7,7 +7,7 @@ public class HealthComponent : MonoBehaviour
     private int currentHealth;
 
     public event Action<GameObject> OnHealthEmpty;
-    public event Action<int, int> OnHealthChanged; // currentHealth, maxHealth
+    public event Action<int, int> OnHealthChanged; 
 
     private void Awake()
     {

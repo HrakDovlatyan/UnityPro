@@ -18,13 +18,13 @@ namespace ShootEmUp
         private Transform myTransform;
 
         [SerializeField]
-        private Params m_params;
+        private Params parameters;
 
         private void Awake()
         {
-            startPositionY = m_params.m_startPositionY;
-            endPositionY = m_params.m_endPositionY;
-            movingSpeedY = m_params.m_movingSpeedY;
+            startPositionY = parameters.StartPositionY;
+            endPositionY = parameters.EndPositionY;
+            movingSpeedY = parameters.MovementSpeedY;
             myTransform = transform;
             var position = myTransform.position;
             positionX = position.x;
@@ -53,13 +53,13 @@ namespace ShootEmUp
         public sealed class Params
         {
             [SerializeField]
-            public float m_startPositionY;
+            public float StartPositionY;
 
             [SerializeField]
-            public float m_endPositionY;
+            public float EndPositionY;
 
             [SerializeField]
-            public float m_movingSpeedY;
+            public float MovementSpeedY;
         }
     }
 }

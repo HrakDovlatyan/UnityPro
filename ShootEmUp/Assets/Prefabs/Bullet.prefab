@@ -165,5 +165,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f1a70d572dcdff4aa20945219ca3255, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 3555983760417175357}
+  rigidBody: {fileID: 3555983760417175357}
   spriteRenderer: {fileID: 407317769854222589}
+  bulletSystem: {fileID: 0}
